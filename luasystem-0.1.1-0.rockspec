@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'luasystem'
-version = '0.1.0-0'
+version = '0.1.1-0'
 -- LuaDist source
 source = {
-  tag = "0.1.0-0",
-  url = "git://github.com/LuaDist2/luasystem.git"
+  url = "git://github.com/LuaDist2/luasystem.git",
+  tag = "0.1.1-0"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/o-lim/luasystem/archive/v0.1.0.tar.gz",
---   dir = "luasystem-0.1.0"
+--   url = "https://github.com/o-lim/luasystem/archive/v0.1.1.tar.gz",
+--   dir = "luasystem-0.1.1"
 -- }
 description = {
   summary = 'Platform independent system calls for Lua.',
