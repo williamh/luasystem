@@ -144,8 +144,8 @@ O_linux=o
 CC_linux=gcc
 DEF_linux=
 CFLAGS_linux= -I$(LUAINC) $(DEF) -Wall -Wshadow -Wextra \
-	-Wimplicit -O2 -ggdb3 -fpic -fvisibility=hidden
-LDFLAGS_linux=-lrt -O -shared -fpic -o
+	-Wimplicit -fpic -fvisibility=hidden
+LDFLAGS_linux=-lrt -shared -fpic -o
 LD_linux=gcc
 
 #------
