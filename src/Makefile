@@ -248,7 +248,7 @@ none:
 all: $(SOLIB)
 
 $(SOLIB): $(OBJS)
-	$(LD) $(OBJS) $(LDFLAGS)$@
+	$(LD) $(OBJS) $(LDFLAGS) $@
 
 install: all
 	$(INSTALL_DIR) $(INSTALL_TOP_LDIR)
